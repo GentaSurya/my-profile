@@ -1,0 +1,135 @@
+body {
+    background-color: #222831;
+    color: #212529;
+}
+
+.main {
+    padding: 10px;
+    width: 90%;
+    background-color: #EEEEEE;
+    margin: 5% auto 2%;
+    border: black 3px solid;
+    border-radius: 20px;
+}
+
+.profile-icon {
+    border: 5px solid rgba(0, 0, 0, 0.499);
+    border-radius: 50%;
+    margin: 10px;
+    padding: 10px;
+    width: 60px;
+    display: none;
+}
+
+.navbar {
+    margin: 10px;
+}
+
+.navigation-btn {
+    font-weight: 700;
+    font-size: clamp(0.1rem, 20px, 1.3rem);
+}
+
+.navigation-drop {
+    margin-left: 10px;
+    border: none;
+    min-width: 4rem;
+    filter: drop-shadow(6px 6px 0px #000000);
+-webkit-filter: drop-shadow(6px 6px 0px #000000);
+-moz-filter: drop-shadow(6px 6px 0px #000000);
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0;
+    -webkit-filter: drop-shadow(5px 5px 0px #000000);
+}
+
+.nav-menu {
+    background-color: #EEEEEE;
+    border: 3px solid black;
+    margin-bottom: 10px;
+-webkit-filter: drop-shadow(3px 3px 0px #000000);
+-moz-filter: drop-shadow(3px 3px 0px #000000);
+}
+
+.navbar::after, .navbar::before, .navbar {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.profile-pic {
+    width: 300px;
+    background-size: contain;
+    opacity: 0.9;
+    filter: drop-shadow(7px 7px 0px #000000);
+-webkit-filter: drop-shadow(7px 7px 0px #000000);
+-moz-filter: drop-shadow(7px 7px 0px #000000);
+}
+
+.title {
+    font-weight: 700;
+}
+
+p[class="lead"] {
+    font-weight: 600;
+}
+
+.title-features {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-bottom: 3px solid #222831;
+    width: 90%;
+}
+
+.bg-img {
+    background-size: cover;
+    background-position: center;
+    padding-top: 30px;
+}
+
+.dark-color {
+    color: #222831;
+    border-radius: 30px;
+    opacity: 0;
+}
+
+.card-bg, .card-bg:active {
+    filter: drop-shadow(7px 7px 0px #000000);
+    -webkit-filter: drop-shadow(7px 7px 0px #000000);
+    -moz-filter: drop-shadow(7px 7px 0px #000000);
+}
+
+
+
+
+@media (min-width: 992px) {
+    .profile-icon{
+        display: block;
+    }
+
+    .main {
+        border-radius: 40px;
+    }
+
+    .navbar {
+        margin: 0;
+    }
+
+    .title-features {
+        width: 97%;
+    }
+
+    .dark-color {
+        opacity: 1;
+    }
+
+
+    .card-bg:hover {
+        transform: scale(1.04);
+        filter: drop-shadow(11px 11px 0px #000000);
+        -webkit-filter: drop-shadow(11px 11px 0px #000000);
+        -moz-filter: drop-shadow(11px 11px 0px #000000);
+    }
+}

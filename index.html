@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is my profile website">
+    <link rel="icon" href="./images/man.png">
+    <title>My Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <!-- Navbar -->
+        <section id="navbar">
+            <nav class="navbar navbar-expand-lg" aria-label="Thirteenth navbar example">
+                <div class="container-fluid">
+                    <button class="navbar-toggler nav-menu" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarsExample11" aria-controls="navbarsExample11" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse d-lg-flex" id="navbarsExample11">
+                        <a class="navbar-brand col-lg-3 me-0" href="#">
+                            <img src="./images/man-black.png" alt="profile-icon" class="profile-icon">
+                        </a>
+                        <ul class="navbar-nav col-lg-9 justify-content-lg-end">
+                            <li class="nav-item navigation-btn">
+                                <a class="nav-link" aria-current="page" href="#introduction">Home</a>
+                            </li>
+                            <li class="nav-item navigation-btn">
+                                <a class="nav-link" href="#projects">Projects</a>
+                            </li>
+                            <li class="nav-item navigation-btn">
+                                <a class="nav-link" href="#about-me">About Me</a>
+                            </li>
+                            <li class="nav-item dropdown navigation-btn">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                                    aria-expanded="false">Social</a>
+                                <ul class="dropdown-menu navigation-drop">
+                                    <li><a class="dropdown-item" href="#"><img src="./images/instagram.png"
+                                                alt="instagram-icon" width="30px"></a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#"><img src="./images/youtube.png"
+                                                alt="instagram-icon" width="30px"></a></li>
+                                    <li><a class="dropdown-item" href="#"><img src="./images/whatsapp.png"
+                                                alt="instagram-icon" width="30px"></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+
+        <!-- Introduction -->
+        <section id="introduction">
+            <div class="container col-xxl-8 px-4">
+                <div class="row flex-lg-row-reverse align-items-center g-5">
+                    <div class="col-10 col-sm-8 col-lg-6">
+                        <img src="./images/Genta profile picture.png" class="d-block mx-lg-auto img-fluid profile-pic"
+                            alt="Bootstrap Themes" loading="lazy">
+                    </div>
+                    <div class="col-lg-6">
+                        <h1 class="title display-5 lh-1 mb-2 py-4">Hi, I'm Genta, Web Developer
+                        </h1>
+                        <p class="lead">
+
+                            Welcome to my portfolio! I'm a first-year student who is passionate about coding and
+                            entirely self-taught. My ultimate dream is to become a full-stack web developer.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Features -->
+        <section id="projects">
+            <div class="container px-1 py-1" id="custom-cards">
+                <h2 class="title-features">Features</h2>
+                <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-3 ">
+                    <a href="https://simple-design-counter.netlify.app/" target="_blank ">
+                        <div class="col card-bg">
+                            <div class="bg-img card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                                style="background-image: url('./project-img/counter.png'); ">
+                                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                                    <h3 class="dark-color p-2 mt-5 mb-4  lh-1 fw-bold"> Counter</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://simpledesign-stopwatch.netlify.app/" target="_blank">
+                        <div class="col card-bg">
+                            <div class="bg-img card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                                style="background-image: url('./project-img/stopwatch.png');">
+                                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                                    <h3 class="dark-color p-2 mt-5 mb-4  lh-1 fw-bold"> Stopwatch</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://simpledesign-timer.netlify.app/" target="_blank">
+                        <div class="col card-bg">
+                            <div class="bg-img card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                                style="background-image: url('./project-img/timer.png');">
+                                <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                                    <h3 class="dark-color p-2 mt-5 mb-4  lh-1 fw-bold">Timer</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+        </section>
+
+        <!-- About Me -->
+        <section id="about-me">
+            <div class="container col-xxl-8 px-4 py-5">
+                <div class="row flex-lg-row align-items-start g-5 py-5">
+                    <div class="col-10 col-sm-8 col-lg-6">
+                        <img src="./images/Genta full body.png" class="d-block mx-lg-auto img-fluid"
+                            alt="full body picture" width="700" height="500" loading="lazy">
+                    </div>
+                    <div class="col-lg-6">
+                        <h2 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">About Me
+                        </h2>
+                        <p class="lead">
+                            <br>
+                            I am a first-year student at Terbuka University, and I work and study online.
+                            Currently, I am employed as a crew member at a restaurant. I developed a passion for coding
+                            back in August, and I've been learning through online videos and creating small projects.
+                            <br>
+                            <br>
+                            What I love about coding is the ability to bring your imagination to life through
+                            programming. Additionally, I see a promising future in coding with plenty of opportunities
+                            for growth and development.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <section id="footer">
+            <div class="container">
+                <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
+                    <p class="col-md-4 mb-0 text-body-secondary">© 2023</p>
+
+                    <ul class="nav col-md-4 justify-content-end">
+                        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+                        <li class="nav-item"><a href="#projects" class="nav-link px-2 text-body-secondary">Projects</a>
+                        </li>
+                        <li class="nav-item"><a href="#about-me" class="nav-link px-2 text-body-secondary">About Me</a>
+                        </li>
+
+                    </ul>
+                </footer>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
